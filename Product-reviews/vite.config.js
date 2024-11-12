@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ProductReviews/',
+  base: '/Product-reviews/',
   plugins: [react()],
 })
