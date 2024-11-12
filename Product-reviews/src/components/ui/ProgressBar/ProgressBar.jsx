@@ -1,4 +1,5 @@
-import clsx from "clsx";
+import clsx from 'clsx';
+
 
 
 const ProgressBar = ({value, color, className}) => {
