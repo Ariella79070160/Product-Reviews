@@ -1,14 +1,14 @@
 import clsx from "clsx";
 import ReviewsList from "./ReviewsList";
+import OverallRating from "./OverallRating";
 
 import { useProductReviewsContext } from "./ReviewsContext";
-import OverallRating from "./OverallRating";
+
 
 const Reviews = () => {
     const { isInitialLoading, reviews } = useProductReviewsContext()
 
     return (
-        
         <div 
             className={clsx(
                 'h-[calc(100vh_-_232px)]',
